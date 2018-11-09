@@ -11,9 +11,9 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
 @Data
 @EqualsAndHashCode
-@NoArgsConstructor
 @Entity
 public class Atividade implements Serializable {
 
