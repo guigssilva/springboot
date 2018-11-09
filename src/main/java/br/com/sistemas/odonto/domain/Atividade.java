@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @EqualsAndHashCode
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 @Entity
 public class Atividade implements Serializable {
 
